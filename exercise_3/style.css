@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(90deg, #0077ff, #e727be);
+}
+
+.login-container {
+  background-color: #fff;
+  width: 300px;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.login-container h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(90deg, #0077ff, #e727be);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.login-btn:hover {
+  background: linear-gradient(90deg, #e727be, #0077ff);
+}
+
+.social-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.social-btn {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.social-btn i {
+  margin-right: 8px;
+  font-size: 16px;
+}
+
+.facebook-btn {
+  color: #3b5998;
+  background-color: #fff;
+  border: solid 1px;
+}
+
+.facebook-btn:hover {
+  color: #fff;
+  background-color: #334d84;
+}
+
+.google-btn {
+  color: #db4437;
+  background-color: #fff;
+  border: solid 1px;
+}
+
+.google-btn:hover {
+  color: #fff;
+  background-color: #c23321
+}
+
+.signup-link {
+  font-size: 14px;
+  margin-top: 20px;
+  color: #333;
+}
+
+.signup-link a {
+  color: #6e8efb;
+  text-decoration: none;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}
